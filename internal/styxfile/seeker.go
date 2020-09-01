@@ -11,7 +11,7 @@ import (
 // seeks with a lock.
 
 type seekerAt struct {
-	rwc    io.Seeker
+	rwc io.Seeker
 	sync.Mutex
 }
 
